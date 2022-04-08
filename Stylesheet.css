@@ -1,0 +1,55 @@
+body{
+    font-size:16px;
+    font-family:sans-serif;
+    min-height:100vh;
+    min-width:available;
+    margin: 0;
+    padding:0;
+    background-image:linear-gradient(to top right, dodgerblue, lightslategray, antiquewhite);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header h1{
+    font-size:3em;
+    font-family: "Arial Rounded MT Bold", sans-serif;
+    margin-left: 5vw;
+    margin-bottom: 1vh;
+}
+
+.tab-g h1, .tab-w h1{
+    font-family: Castellar, sans-serif;
+}
+
+.tab-g , .tab-w{
+    min-width:500px;
+    background-color:lightgray;
+    width: available;
+    height: 100px;
+    margin: 5vh 5vw;
+    border-radius:3px;
+}
+
+.tab-w{
+    background-color:white;
+}
+
+.event-title{
+    text-underline-mode:none;
+    color: black;
+    font-size: 3em;
+    font-family: "Arial Rounded MT Bold", sans-serif;
+    margin:5px;
+}
+
+time{
+    font-family: Arial, sans-serif;
+    margin: 5px;
+    color:darkgray;
+    font-size:2em;
+    float: left;
+}
+
+.time{
+    float:right;
+}
